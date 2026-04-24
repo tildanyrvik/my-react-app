@@ -1,4 +1,5 @@
 import Project1 from "./components/project1";
+import Project2 from "./components/project2";
 
 function App() {
 

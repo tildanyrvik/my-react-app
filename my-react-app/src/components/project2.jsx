@@ -1,10 +1,10 @@
-import project2_img from "../assets/project2_img";
+import project2Img from "../assets/project2_img.png";
 
 function Project2(){
 
     return (
     <div>
-        <img src={project2_img} alt="Burgundy website with orange and red boxes" />
+        <img src={project2Img} alt="Burgundy website with orange and red boxes" />
         <br /> 
         <h2>Flexbox Project</h2>
         <br />
