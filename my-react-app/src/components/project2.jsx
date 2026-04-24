@@ -1,0 +1,1 @@
+import project2_img from "../assets/project2_img";
