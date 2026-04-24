@@ -5,6 +5,8 @@ function App() {
   return (
     <>
       <Project1></Project1>
+      <br />
+      <Project2></Project2>
     </>
   )
 }
