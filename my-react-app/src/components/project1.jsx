@@ -1,11 +1,12 @@
 import project1 from "../assets/project1.png";
+import 'project1.css';
 
 function Project1 (){
 
     return (
     <div>
         <img src={project1} alt="Website called Dog Blog with yellow background"/>
-
+        <br />
         <h2>The Dog Blog</h2>
         <br />
         <p> This project is from early on of doing a front end development course at Sundsgården Folkhögskola. 
