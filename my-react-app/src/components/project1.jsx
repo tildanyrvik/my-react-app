@@ -17,7 +17,7 @@ function Project1 (props){
             
         <br />
         
-        <span className="github_repo">Github repository:</span> https://github.com/tildanyrvik/the-dog-blog.git
+        <span className="github_repo">Github repository:</span> {props.githubLink}
         </p>
     </div>
     )
