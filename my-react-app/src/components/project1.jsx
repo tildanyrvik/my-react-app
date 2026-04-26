@@ -1,5 +1,5 @@
+import './project1.css';
 import project1 from "../assets/project1.png";
-import 'project1.css';
 
 function Project1 (){
 
