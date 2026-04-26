@@ -1,13 +1,13 @@
 import "./project1.css";
 import project1 from "../assets/project1.png";
 
-function Project1 (){
+function Project1 (props){
 
     return (
     <div className="project1_container">
         <img className="project1_img" src={project1} alt="Website called Dog Blog with yellow background"/>
         <br />
-        <h2 className="heading">The Dog Blog</h2>
+        <h2 className="heading">{props.title}</h2>
         <p className="paragraph"> This project is from early on of doing a front end development course at Sundsgården Folkhögskola. 
             Using HTML and CSS, I created a simple website about different dog breeds and a link for an adoption 
             website. In this project, I learned to use basic CSS, such as adding background colors, image borders, 
@@ -17,7 +17,7 @@ function Project1 (){
             
         <br />
         
-        <p className="paragraph"><span className="github_repo">Github repository:</span> https://github.com/tildanyrvik/the-dog-blog.git</p>
+        <span className="github_repo">Github repository:</span> https://github.com/tildanyrvik/the-dog-blog.git
         </p>
     </div>
     )

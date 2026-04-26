@@ -1,13 +1,13 @@
 import "./project3.css";
 import project3Img from "../assets/project3_img.png";
 
-function Project3(){
+function Project3(props){
     
     return (
         <div className="project3_container">
             <img className="project3_img" src={project3Img} alt="Pink wedding invite with flowers" />
             <br />
-            <h2 className="heading">Wedding invite</h2>
+            <h2 className="heading">{props.title}</h2>
             <p className="paragraph">In this project we got to create anything we wanted to practise animations and transitions. 
                 I chose to create a wedding invite with an animation added to the heading and an image. I also 
                 added a hover effect to the button and a transition of the color. I really enjoyed this as it was 
@@ -15,7 +15,7 @@ function Project3(){
                 @keyframes which I initially found tricky, but watching back the lesson helped me understand how 
                 they work.
             <br />
-            <span className="github_repo">Github repository:</span> https://github.com/tildanyrvik/wedding-invite-animation.git
+            <span className="github_repo">Github repository:</span> {props.githubLink}
             </p>
         </div>
     )

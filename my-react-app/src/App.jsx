@@ -6,11 +6,11 @@ function App() {
 
   return (
     <>
-      <Project1></Project1>
+      <Project1 title = "The Dog Blog" githubLink = "https://github.com/tildanyrvik/the-dog-blog.git"></Project1>
       <br />
-      <Project2></Project2>
+      <Project2 title = "Flexbox Project" githubLink = "https://github.com/tildanyrvik/flexbox-practice.git"></Project2>
       <br />
-      <Project3></Project3>
+      <Project3 title = "Wedding Invite" githubLink = "https://github.com/tildanyrvik/wedding-invite-animation.git"></Project3>
     </>
   )
 }
