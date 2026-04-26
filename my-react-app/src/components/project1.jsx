@@ -1,11 +1,11 @@
-import './project1.css';
+import "./project1.css";
 import project1 from "../assets/project1.png";
 
 function Project1 (){
 
     return (
-    <div>
-        <img src={project1} alt="Website called Dog Blog with yellow background"/>
+    <div className="project1_container">
+        <img className="project1_img" src={project1} alt="Website called Dog Blog with yellow background"/>
         <br />
         <h2>The Dog Blog</h2>
         <br />
