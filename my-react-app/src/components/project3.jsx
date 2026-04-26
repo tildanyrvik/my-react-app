@@ -1,3 +1,4 @@
+import "./project3.css";
 import project3Img from "../assets/project3_img.png";
 
 function Project3(){
