@@ -8,6 +8,9 @@ function Project1 (props){
         <img className="project1_img" src={project1} alt="Website called Dog Blog with yellow background"/>
         <br />
         <h2 className="heading">{props.title}</h2>
+        <br />
+        <button>More information</button>
+        
         <p className="paragraph"> This project is from early on of doing a front end development course at Sundsgården Folkhögskola. 
             Using HTML and CSS, I created a simple website about different dog breeds and a link for an adoption 
             website. In this project, I learned to use basic CSS, such as adding background colors, image borders, 
