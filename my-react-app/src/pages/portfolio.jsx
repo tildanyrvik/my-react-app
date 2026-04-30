@@ -21,7 +21,7 @@ function Portfolio (){
                 <button onClick={lookAtProjects}>Look at projects</button>
                 {viewProjects && (
                 <div>
-                <Project1 title = "The Dog Blog" githubLink = "https://github.com/tildanyrvik/the-dog-blog.git"></Project1>
+                <Project1 title = "The Dog Blog"></Project1>
                 <br />
                 <Project2 title = "Flexbox Project" githubLink = "https://github.com/tildanyrvik/flexbox-practice.git"></Project2>
                 <br />
