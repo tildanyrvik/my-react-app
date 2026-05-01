@@ -4,7 +4,15 @@ import "./project1.css";
 import project1 from "../assets/project1.png";
 
 function Project1 (props){
-cont [isOpen, setIsOpen] = useState(false);
+    const [popupInfo, setPopupInfo] = useState({
+        info: "information about project",
+        link: "Link to github",
+    });
+    const [isOpen, setIsOpen] = useState(false);
+    const closePopup = () => {
+        setIsOpen(false);
+    };
+
     return (
     <div className="project1_container">
         <img className="project1_img" src={project1} alt="Website called Dog Blog with yellow background"/>
@@ -13,7 +21,10 @@ cont [isOpen, setIsOpen] = useState(false);
         <br />
         <button onClick={() => setIsOpen(true)}>More information</button>
         {isOpen && (
-            <P1Popup title = {popupInfo.title} info = {popupInfo.info} />
+            <P1Popup 
+            info = {popupInfo.info} 
+            link = {popupInfo.link} 
+            onClick = {closePopup} />
         )}
   
     </div>
