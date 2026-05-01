@@ -1,14 +1,15 @@
 import React from "react";
+import "./project1.css";
 
 function P1Popup({info, link, onClick}) {
     return(
-        <div>
+        <div className="popup_container">
           <p className="paragraph">{info}</p>
             <br />
     
-            <a href="https://github.com/tildanyrvik/the-dog-blog.git">{link}</a>
+            <a className="link" href="https://github.com/tildanyrvik/the-dog-blog.git">{link}</a>
 
-            <button onClick={onClick}>Close window</button>
+            <button className="button" onClick={onClick}>Close window</button>
         </div>
     )
 }

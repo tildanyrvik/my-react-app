@@ -24,7 +24,7 @@ function Project1 (props){
         <br />
         <h2 className="heading">{props.title}</h2>
         <br />
-        <button onClick={() => setIsOpen(true)}>More information</button>
+        <button className="button" onClick={() => setIsOpen(true)}>More information</button>
         {isOpen && (
             <P1Popup 
             info = {popupInfo.info} 
