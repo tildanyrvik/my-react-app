@@ -13,12 +13,13 @@ function Portfolio (){
 	}
 }
 
-
  return (
         <div>
             <h2>Portfolio</h2>
 
                 <button onClick={lookAtProjects}>Look at projects</button>
+
+
                 {viewProjects && (
                 <div>
                 <Project1 title = "The Dog Blog"></Project1>
